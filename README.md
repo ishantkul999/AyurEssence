@@ -1,18 +1,16 @@
-**AyurEssence – Ayurvedic Diet Management Platform**
-A full-stack web application designed to help Ayurvedic dietitians manage patients and generate personalized, Ayurveda-compliant diet plans by combining traditional Ayurvedic principles with modern nutritional science.
+# AyurEssence – Ayurvedic Diet Management Platform
+A full-stack web application designed to help Ayurvedic dietitians manage patients and generate personalized, Ayurveda-compliant diet plans by integrating traditional principles with modern nutritional science.
 
-Table of Contents
-Overview
-Architecture
-Tech Stack
-Features
-Swagger Documentation
-Application Setup
-Backend (Spring Boot)
-Frontend (React)
-API Endpoints
-Database Design
-License
+**Table of Contents**
+## Overview
+## Architecture
+## Tech Stack
+## Features
+## Swagger Documentation
+## Application Setup
+## API Endpoints
+## Database Design
+## License
 
 **Overview**
 
@@ -20,20 +18,22 @@ AyurEssence is a healthcare-focused platform built for Ayurvedic dietitians to e
 The system generates automated diet plans based on age, gender, and health parameters, while integrating Ayurvedic concepts such as food properties and tastes with modern nutritional metrics like calories and macronutrients.
 The application aims to bridge the gap between traditional Ayurveda and contemporary diet planning systems through a structured, scalable, and technology-driven approach.
 
-**Architecture**
-+-----------------------------+
-|   React Frontend            |
-+-----------------------------+
-            |
-            v
-+-----------------------------+
-|   Spring Boot Backend       |
-+-----------------------------+
-            |
-            v
-+-----------------------------+
-|   PostgreSQL Database       |
-+-----------------------------+
+## Architecture
+
++-------------------+
+|  React Frontend   |
++-------------------+
+          |
+          v
++-------------------+
+| Spring Boot API   |
++-------------------+
+          |
+          v
++-------------------+
+| PostgreSQL DB     |
++-------------------+
+
 
 The React frontend consumes REST APIs exposed by the Spring Boot backend.
 The backend handles business logic, diet chart generation, and data persistence.
@@ -47,29 +47,34 @@ Database: PostgreSQL
 API Documentation: Swagger (Springdoc OpenAPI)
 Build Tools: Maven, npm
 
-**Features**
+## Features
 
-Platform for Ayurvedic dietitians to manage patients and appointments
-Automated generation of personalized diet charts based on patient health data
-Integration of modern nutritional metrics:
-Calories
-Macronutrients (proteins, fats, carbohydrates)
-Integration of Ayurvedic principles:
-Hot/Cold food properties
-Six tastes (Rasa)
-Digestibility considerations
-CRUD operations for diet charts, meals, and food items
-Role-based APIs for dietitians and patients
-Scalable PostgreSQL schema for healthcare data management
+- Platform for Ayurvedic dietitians to manage patients and appointments
+- Automated generation of personalized diet charts based on:
+  - Age
+  - Gender
+  - Health parameters
+- Integration of modern nutritional metrics:
+  - Calories
+  - Macronutrients (proteins, fats, carbohydrates)
+- Integration of Ayurvedic principles:
+  - Hot/Cold food properties
+  - Six tastes (Rasa)
+  - Digestibility considerations
+- Role-based REST APIs for dietitians and patients
+- Scalable PostgreSQL schema for healthcare data management
 
-**Swagger Documentation**
+## API Documentation (Swagger)
+Swagger UI is integrated using Springdoc OpenAPI.
 
-Swagger UI is used to provide interactive API documentation for all backend endpoints.
-Access Swagger UI
-Once the backend application is running, Swagger UI can be accessed at:
-http://localhost:{port}/swagger-ui.html
-Example:
+Access Swagger UI at:
 http://localhost:8080/swagger-ui.html
+
+Swagger provides:
+- Interactive API testing
+- Request/response models
+- HTTP status codes
+- Schema definitions
 
 **Swagger Features**
 
