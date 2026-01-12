@@ -21,19 +21,6 @@ The application aims to bridge the gap between traditional Ayurveda and contempo
 
 ## Architecture
 
-+-------------------+
-|  React Frontend   |
-+-------------------+
-          |
-          v
-+-------------------+
-| Spring Boot API   |
-+-------------------+
-          |
-          v
-+-------------------+
-| PostgreSQL DB     |
-+-------------------+
 The React frontend consumes REST APIs exposed by the Spring Boot backend.
 The backend handles business logic, diet chart generation, and data persistence.
 PostgreSQL is used for structured and relational data storage.
