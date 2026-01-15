@@ -16,11 +16,11 @@ PostgreSQL is used for structured and relational data storage.
 
 ## Tech Stack
 
-**Frontend:** React
-**Backend:** Spring Boot (Java)
-**Database:** PostgreSQL
-**API Documentation:** Swagger (Springdoc OpenAPI)
-**Build Tools:** Maven, npm
+Frontend: React
+Backend: Spring Boot (Java)
+Database: PostgreSQL
+API Documentation: Swagger (Springdoc OpenAPI)
+Build Tools: Maven, npm
 
 ## Features
 
