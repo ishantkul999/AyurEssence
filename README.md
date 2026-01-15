@@ -2,17 +2,6 @@
 
 A web application designed to help Ayurvedic dietitians manage patients and generate personalized, Ayurveda-compliant diet plans by integrating traditional principles with modern nutritional science.
 
-## Table of Contents
-**Overview**
-**Architecture**
-**Tech Stack**
-**Features**
-**Swagger Documentation**
-**Application Setup**
-**API Endpoints**
-**Database Design**
-**License**
-
 ## Overview
 
 AyurEssence is a healthcare-focused platform built for Ayurvedic dietitians to efficiently manage patient records, appointments, and personalized diet charts.
