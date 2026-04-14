@@ -114,14 +114,14 @@ Exposes RESTful APIs for:
 - Generate and update diet charts
 - View dashboards and analytics
 
-![Dietitian's Dashboard](images/Dietitian's Dashboard.png)
+![Dietitian's Dashboard](images/Dietitian's%20Dashboard.png)
 
 **Patient**
 - Submit health parameters
 - View assigned diet charts
 - Track appointments
 
-![Patient's Dashboard](images/Patient's Dashboard.png)
+![Patient's Dashboard](images/Patient's%20Dashboard.png)
 
 All endpoints are fully documented in Swagger UI.
 
