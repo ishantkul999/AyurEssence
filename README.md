@@ -8,6 +8,8 @@ AyurEssence is a healthcare-focused platform built for Ayurvedic dietitians to e
 The system generates automated diet plans based on age, gender, and health parameters, while integrating Ayurvedic concepts such as food properties and tastes with modern nutritional metrics like calories and macronutrients.
 The application aims to bridge the gap between traditional Ayurveda and contemporary diet planning systems through a structured, scalable, and technology-driven approach.
 
+![LandingPage](images/LandingPage.png)
+
 ## Architecture
 
 - The React frontend consumes REST APIs exposed by the Spring Boot backend.
@@ -112,10 +114,14 @@ Exposes RESTful APIs for:
 - Generate and update diet charts
 - View dashboards and analytics
 
+![Dietitian's Dashboard](images/Dietitian's Dashboard.png)
+
 **Patient**
 - Submit health parameters
 - View assigned diet charts
 - Track appointments
+
+![Patient's Dashboard](images/Patient's Dashboard.png)
 
 All endpoints are fully documented in Swagger UI.
 
